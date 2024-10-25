@@ -1,0 +1,33 @@
+.thing {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.div {
+    background-color: cyan;
+    width: 70%;
+    height: 10%;
+    padding: 2%;
+    border-bottom: 1px solid black;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.addToPlaylistButton {
+    width: 7%;
+    padding: 3%;
+    background-color: #121212;
+    background-image: url(../components/plus-circle.svg);
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.albumImage {
+    size: contain;
+}
